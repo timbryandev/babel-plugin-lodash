@@ -1,4 +1,8 @@
-# babel-plugin-lodash
+# @timbryandev/babel-plugin-lodash
+
+**_This is a fork of the original babel-plugin-lodash plugin that resolves the deprecated `isModuleDeclaration` by replacing it with `isImportOrExportDeclaration`. There is no guarantee of any further updates in this project! The [original babel-plugin-lodash](https://github.com/lodash/babel-plugin-lodash) plugin was archived by lodash on Sep 17, 2023 and is set to read-only - this fork exists purely to resolve this specific issue!_**
+
+---
 
 A simple transform to cherry-pick Lodash modules so you don’t have to.
 
@@ -73,7 +77,7 @@ require('babel-core').transform('code', {
 
 ###### webpack.config.js
 ```js
-'module': {
+'module':{
   'loaders': [{
     'loader': 'babel-loader',
     'test': /\.js$/,
