@@ -43,9 +43,9 @@ jobs:
       - name: 'Run test'
         run: npm run test
       - name: 'Bump the version'
-        run: npm version ${{inputs.version}} -ws
+        run: npm version ${{inputs.version}}
       - name: 'Publish the packages'
-        run: npm publish -ws
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
       - name: Get new version
