@@ -35,7 +35,10 @@ jobs:
       - name: 'Run test'
         run: npm run test
       - name: 'Bump the version'
-        run: npm version ${{inputs.version}}
+        run: | 
+          git config --local user.email "ghbot@timbryan.dev"
+          git config --local user.name "timbryandev-bot"
+          npm version ${{inputs.version}}
       - name: 'Publish the packages'
         run: npm publish
       - name: install
