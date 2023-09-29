@@ -1,5 +1,5 @@
 {
-  "name": "@timbryande/babel-plugin-lodash",
+  "name": "@timbryandev/babel-plugin-lodash",
   "version": "1.0.0",
   "description": "Modular Lodash builds without the hassle.",
   "keywords": ["babel-plugin", "cherry-pick", "lodash", "modules", "isModuleDeclaration", "deprecated", "isImportOrExportDeclaration"],
