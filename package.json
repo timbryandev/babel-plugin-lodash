@@ -1,8 +1,16 @@
 {
   "name": "@timbryandev/babel-plugin-lodash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Modular Lodash builds without the hassle.",
-  "keywords": ["babel-plugin", "cherry-pick", "lodash", "modules", "isModuleDeclaration", "deprecated", "isImportOrExportDeclaration"],
+  "keywords": [
+    "babel-plugin",
+    "cherry-pick",
+    "lodash",
+    "modules",
+    "isModuleDeclaration",
+    "deprecated",
+    "isImportOrExportDeclaration"
+  ],
   "repository": "timbryandev/babel-plugin-lodash",
   "license": "MIT",
   "main": "lib/index.js",
