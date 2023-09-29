@@ -13,7 +13,7 @@ for even smaller cherry-picked builds!
 
 ```shell
 $ npm i --save lodash
-$ npm i --save-dev babel-plugin-lodash @babel/cli @babel/preset-env
+$ npm i --save-dev @timbryandev/babel-plugin-lodash @babel/cli @babel/preset-env
 ```
 
 ## Example
