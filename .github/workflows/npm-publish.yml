@@ -35,6 +35,14 @@ jobs:
       - name: 'Run test'
         run: npm run test
       - name: 'Bump the version'
+        run: npm version ${{inputs.version}}
+      - name: 'Publish the packages'
+        run: npm publish
+      - name: install
+        run: npm ci --ignore-scripts
+      - name: 'Run test'
+        run: npm run test
+      - name: 'Bump the version'
         run: npm version ${{inputs.version}} -ws
       - name: 'Publish the packages'
         run: npm publish -ws
